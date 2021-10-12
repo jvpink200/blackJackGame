@@ -10,3 +10,13 @@ if (sum < 21) {
 } else {
     console.log("You're out of the game!")
 }
+
+//check age
+
+let personAge = 25;
+
+if(personAge >= 21) {
+    console.log('You are old enough to enter');
+} else{
+    console.log('Too young!');
+}
