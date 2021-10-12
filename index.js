@@ -13,10 +13,10 @@ if (sum < 21) {
 
 //check age
 
-let personAge = 25;
+let personAge = 21;
 
-if(personAge >= 21) {
-    console.log('You are old enough to enter');
+if(personAge < 21) {
+    console.log('YOu can not enter the club!');
 } else{
-    console.log('Too young!');
+    console.log('Welcome!');
 }
