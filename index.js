@@ -38,9 +38,6 @@ function newCard() {
 }
 
 
-
-
-
 //console.log(hasBlackJack);
 //console.log(isAlive);
 //check age
