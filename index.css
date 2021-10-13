@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url('images/table.jpg');
+    background-image: url('images/table-game.jpg');
     background-size:cover;
     text-align:center;
     color:white;
@@ -24,5 +24,5 @@ h1 {
     padding-bottom:5px;
     border-radius:3px;
     font-weight: bold;
-    margin-top:15px;
+    margin-top:15px; 
 }
