@@ -14,8 +14,11 @@ function startGame() {
 }
 
 function getRandomCard() {
-  
+  let randomNumber = Math.floor( Math.random() * 13) + 1;
+  return randomNumber;
 }
+
+console.log(getRandomCard());
 
 function renderGame() {
   cardsEl.textContent = "Cards: " 
