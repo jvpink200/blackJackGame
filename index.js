@@ -53,11 +53,13 @@ function renderGame() {
 }
 
 function newCard() {
-    let newCard = getRandomCard();
-    sum += newCard;
-    cards.push(newCard);
-    console.log(cards);
-    renderGame();
+    if(isAlive === true && sum < 21) {
+      let newCard = getRandomCard();
+      sum += newCard;
+      cards.push(newCard);
+      console.log(cards);
+      renderGame();
+    }
 }
 
 
