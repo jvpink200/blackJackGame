@@ -9,6 +9,17 @@ let msgEl = document.getElementById("message-el");
 let cardsEl = document.getElementById("cards-el");
 let sumEl = document.getElementById('sum-el');
 
+let player = {
+  playerName : 'Janet',
+  playerChips : 145
+}
+
+let playerName = player[playerName];
+let playerChips = player[playerChips];
+
+let playerEl = document.getElementById('player-el');
+playerEl.textContent = playerName + ': $' + playerChips;
+
 function startGame() {
     isAlive = true;
     let card1 = Math.floor(Math.random() * 13) + 1;
