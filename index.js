@@ -14,11 +14,8 @@ let player = {
   playerChips : 145
 }
 
-let playerName = player[playerName];
-let playerChips = player[playerChips];
-
 let playerEl = document.getElementById('player-el');
-playerEl.textContent = playerName + ': $' + playerChips;
+playerEl.textContent = player.playerName + " : $" + player.playerChips;
 
 function startGame() {
     isAlive = true;
