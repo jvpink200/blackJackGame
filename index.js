@@ -12,7 +12,7 @@ let sumEl = document.getElementById('sum-el');
 let player = {
   playerName : 'Janet',
   playerChips : 145
-}
+}  
 
 let playerEl = document.getElementById('player-el');
 playerEl.textContent = player.playerName + " : $" + player.playerChips;
